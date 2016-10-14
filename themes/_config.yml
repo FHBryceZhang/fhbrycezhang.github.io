@@ -3,19 +3,19 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "get to class"
+name:               "Kiko Plus"
 
 
 
 author:
-  name:             Emil Sayahi
-  //facebook:         your-id
-  //twitter:          your-id
-  github:           FHEDUEmil
-  //linkedin:         your-id
-  //medium:           your-id
-  //tumblr:           your-id
-  email:            emilsayahi@foresthills.edu
+  name:             your-name
+  facebook:         your-id
+  twitter:          your-id
+  github:           your-id
+  linkedin:         your-id
+  medium:           your-id
+  tumblr:           your-id
+  email:            your-id@your-email.com
 
 # Google-analytics
 google-analytics:
@@ -23,17 +23,17 @@ google-analytics:
 
 # Disqus
 disqus:
-  //id:               "your-id"
+  id:               "your-id"
 
 # URL
-url:                "https://fheduemil.github.io/"
+url:                "https://AWEEKJ.github.io"
 #url:               "localhost:4000"
-baseurl:            "/master"
+baseurl:            ""
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           America/New_York
-permalink:          /:month-:day-:year/:title/
+timezone:           Asia/Seoul
+permalink:          /:year-:month-:day/:title/
 
 # Pagination
 paginate:           5
@@ -53,7 +53,7 @@ nav:
   - name:           "Tags"
     url:            "/tags"
   - name:           "Github"
-    url:            "https://fheduemil.github.io/"
+    url:            "https://github.com/AWEEKJ/Kiko-plus"
 
 
 
