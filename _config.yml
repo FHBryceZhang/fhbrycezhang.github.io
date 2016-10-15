@@ -34,7 +34,7 @@ google-analytics:
 disqus:
   id: gettoclass
 url: https://fheduemil.github.io/
-baseurl: ''
+baseurl: 
 permalink: "/:year-:month-:day/:title/"
 paginate: 5
 paginate_path: "/page:num/"
@@ -52,7 +52,7 @@ nav:
   url: https://github.com/FHEDUEmil
 sass:
   sass_dir: _sass
-  style: :compressed
+  style: compressed
 gems:
 - jekyll-seo-tag
 - jekyll-paginate
