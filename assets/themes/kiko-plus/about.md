@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: /about/
+permalink: "/about/"
 ---
 
 This blog is demo blog for [Kiko Plus](https://github.com/AWEEKJ/Kiko-plus)
