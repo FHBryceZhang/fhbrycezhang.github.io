@@ -1,24 +1,5 @@
 ---
 title: get to class
-timezone: America/New_York
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
 name: get to class
 author:
   name: Emil Sayahi
@@ -30,12 +11,13 @@ author:
   "//tumblr": your-id
   email: emilsayahi@foresthills.edu
 google-analytics:
-  id: 
+  id: UA-85744932-1
 disqus:
-  "//id": your-id
+  id: gettoclass
 url: https://fheduemil.github.io/
-baseurl: 
-permalink: "/:month-:day-:year/:title/"
+baseurl: ''
+timezone: America/New_York
+permalink: "/:year-:month-:day/:title/"
 paginate: 5
 paginate_path: "/page:num/"
 markdown: kramdown
@@ -48,11 +30,24 @@ nav:
   url: "/archive"
 - name: Tags
   url: "/tags"
-- name: Github
-  url: https://fheduemil.github.io/
+- name: GitHub
+  url: https://github.com/FHEDUEmil
+  tag_page_layout: tag_page
+tag_page_dir: tag
 sass:
   sass_dir: _sass
-  style: compressed
+  style: ":compressed"
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
 gems:
 - jekyll-seo-tag
 - jekyll-paginate
