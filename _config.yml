@@ -17,7 +17,7 @@ disqus:
 url: https://fheduemil.github.io/
 baseurl: ''
 timezone: America/New_York
-permalink: "/:month-:day-:year/:title/"
+permalink: "/:year-:month-:day/:title/"
 paginate: 5
 paginate_path: "/page:num/"
 markdown: kramdown
@@ -30,8 +30,8 @@ nav:
   url: "/archive"
 - name: Tags
   url: "/tags"
-- name: Github
-  url: https://fheduemil.github.io/
+- name: GitHub
+  url: https://github.com/FHEDUEmil
   tag_page_layout: tag_page
 tag_page_dir: tag
 sass:
