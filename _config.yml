@@ -1,13 +1,25 @@
-# # # # # # # # # # # # #
-#   K i k o - p l u s   #
-# # # # # # # # # # # # #
-
-# Basic
+---
 title: get to class
+timezone: America/New_York
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
 name: Emil
-
-
-
 author:
   name: Emil Sayahi
   "//facebook": your-id
@@ -17,70 +29,32 @@ author:
   "//medium": your-id
   "//tumblr": your-id
   email: emilsayahi@foresthills.edu
-
-# Google-analytics
 google-analytics:
-  id:               "UA-85744932-1"
-
-# Disqus
+  id: UA-85744932-1
 disqus:
-  id:               "gettoclass"
-
-# URL
-url:                "https://fheduemil.github.io/"
-#url:               "localhost:4000"
-baseurl:            ""
-
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           America/New_York
-permalink:          /:year-:month-:day/:title/
-
-# Pagination
-paginate:           5
-paginate_path:      /page:num/
-
-# Markdown
-markdown:           kramdown
+  id: gettoclass
+url: https://fheduemil.github.io/
+baseurl: ''
+permalink: "/:year-:month-:day/:title/"
+paginate: 5
+paginate_path: "/page:num/"
+markdown: kramdown
 kramdown:
-  imput:            GFM
-
-# Navigation
+  imput: GFM
 nav:
-  - name:           "About"
-    url:            "/about"
-  - name:           "Archive"
-    url:            "/archive"
-  - name:           "Tags"
-    url:            "/tags"
-  - name:           "Github"
-    url:            "https://github.com/FHEDUEmil"
-
-
-
-# Sass
+- name: About
+  url: "/about"
+- name: Archive
+  url: "/archive"
+- name: Tags
+  url: "/tags"
+- name: Github
+  url: https://github.com/FHEDUEmil
 sass:
-  sass_dir:         _sass
-  style:            :compressed
-
-# Scopes
-defaults:
-  -
-    scope:
-      path:         ""
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
-
-# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+  sass_dir: _sass
+  style: :compressed
 gems:
-  - jekyll-seo-tag
-  - jekyll-paginate
-
-exclude:            [vendor]
+- jekyll-seo-tag
+- jekyll-paginate
+exclude:
+- vendor
