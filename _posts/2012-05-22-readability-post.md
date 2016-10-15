@@ -1,9 +1,17 @@
 ---
+title: Testing Readability with a Bunch of Text
+date: 2012-05-22 00:00:00 -04:00
+categories:
+- assets
+- themes
+- kiko-plus
+tags:
+- sample post
+- readability
+- test
+- intro
 layout: post
-title: "Testing Readability with a Bunch of Text"
-description: "A ton of text to test readability."
-date: 2012-05-22
-tags: [sample post, readability, test, intro]
+description: A ton of text to test readability.
 comments: true
 share: true
 ---

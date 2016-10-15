@@ -1,9 +1,11 @@
 ---
+title: A Full and Comprehensive Style Test
+date: 2016-08-15 00:00:00 -04:00
 layout: post
-title: "A Full and Comprehensive Style Test"
-description: "Test post for style"
-date: 2016-08-15
-tags: [test, style]
+description: Test post for style
+tags:
+- test
+- style
 comments: true
 share: true
 ---
