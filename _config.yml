@@ -1,85 +1,55 @@
-# # # # # # # # # # # # #
-#   K i k o - p l u s   #
-# # # # # # # # # # # # #
-
-# Basic
-name:               "get to class"
-
-
-
+---
+title: get to class
+name: get to class
 author:
-  name:             Emil Sayahi
-  //facebook:         your-id
-  //twitter:          your-id
-  github:           FHEDUEmil
-  //linkedin:         your-id
-  //medium:           your-id
-  //tumblr:           your-id
-  email:            emilsayahi@foresthills.edu
-
-# Google-analytics
+  name: Emil Sayahi
+  "//facebook": your-id
+  "//twitter": your-id
+  github: FHEDUEmil
+  "//linkedin": your-id
+  "//medium": your-id
+  "//tumblr": your-id
+  email: emilsayahi@foresthills.edu
 google-analytics:
-  id:               ""
-
-# Disqus
+  id: UA-85744932-1
 disqus:
-  //id:               "your-id"
-
-# URL
-url:                "https://fheduemil.github.io/"
-#url:               "localhost:4000"
-baseurl:            ""
-
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           America/New_York
-permalink:          /:month-:day-:year/:title/
-
-# Pagination
-paginate:           5
-paginate_path:      /page:num/
-
-# Markdown
-markdown:           kramdown
+  id: gettoclass
+url: https://fheduemil.github.io/
+baseurl: ''
+timezone: America/New_York
+permalink: "/:month-:day-:year/:title/"
+paginate: 5
+paginate_path: "/page:num/"
+markdown: kramdown
 kramdown:
-  imput:            GFM
-
-# Navigation
+  imput: GFM
 nav:
-  - name:           "About"
-    url:            "/about"
-  - name:           "Archive"
-    url:            "/archive"
-  - name:           "Tags"
-    url:            "/tags"
-  - name:           "Github"
-    url:            "https://fheduemil.github.io/"
-
-
-
-# Sass
+- name: About
+  url: "/about"
+- name: Archive
+  url: "/archive"
+- name: Tags
+  url: "/tags"
+- name: Github
+  url: https://fheduemil.github.io/
+  tag_page_layout: tag_page
+tag_page_dir: tag
 sass:
-  sass_dir:         _sass
-  style:            :compressed
-
-# Scopes
+  sass_dir: _sass
+  style: ":compressed"
 defaults:
-  -
-    scope:
-      path:         ""
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
-
-# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
 gems:
-  - jekyll-seo-tag
-  - jekyll-paginate
-
-exclude:            [vendor]
+- jekyll-seo-tag
+- jekyll-paginate
+exclude:
+- vendor

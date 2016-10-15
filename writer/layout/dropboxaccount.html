@@ -1,0 +1,22 @@
+<div class="accountList">
+    <ul>
+        <li ng-show="!!accounts.dropbox.username">
+            <div>{{ accounts.dropbox.username }}<i class="ion-close" title="Remove Account" ng-click="removeDropboxAccountConfirm()"></i></div>
+        </li>
+    </ul>
+    <div class="accountField" ng-show="showAccountField">
+        <div>
+            <input type="text" placeholder="Code" ng-model="dropboxAccount.code">
+            <div>
+                <a href="#" ng-click="openWebPage('https://go.jekyllwriter.com/jump?LinkId=571d3c91eb276')">Create new code</a>
+            </div>
+        </div>
+        <div>
+            <button ng-click="addDropboxAccount()">OK</button>
+            <button ng-click="hideAccountField()">Cancel</button>
+        </div>
+    </div>
+    <div class="accountAddBtn" ng-hide="showAccountField">
+        <button ng-click="addAccount()">{{ !!accounts.dropbox.username ? 'Change' : 'Add' }} Account</button>
+    </div>
+</div>
