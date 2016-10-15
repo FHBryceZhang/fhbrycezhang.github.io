@@ -1,6 +1,13 @@
----
+# # # # # # # # # # # # #
+#   K i k o - p l u s   #
+# # # # # # # # # # # # #
+
+# Basic
 title: get to class
 name: get to class
+
+
+
 author:
   name: Emil Sayahi
   "//facebook": your-id
@@ -10,46 +17,70 @@ author:
   "//medium": your-id
   "//tumblr": your-id
   email: emilsayahi@foresthills.edu
+
+# Google-analytics
 google-analytics:
-  id: UA-85744932-1
+  id:               "UA-85744932-1"
+
+# Disqus
 disqus:
-  id: gettoclass
-url: https://fheduemil.github.io/
-baseurl: ''
-timezone: America/New_York
-permalink: "/:year-:month-:day/:title/"
-paginate: 5
-paginate_path: "/page:num/"
-markdown: kramdown
+  id:               "gettoclass"
+
+# URL
+url:                "https://fheduemil.github.io/"
+#url:               "localhost:4000"
+baseurl:            ""
+
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           America/New_York
+permalink:          /:year-:month-:day/:title/
+
+# Pagination
+paginate:           5
+paginate_path:      /page:num/
+
+# Markdown
+markdown:           kramdown
 kramdown:
-  imput: GFM
+  imput:            GFM
+
+# Navigation
 nav:
-- name: About
-  url: "/about"
-- name: Archive
-  url: "/archive"
-- name: Tags
-  url: "/tags"
-- name: GitHub
-  url: https://github.com/FHEDUEmil
-  tag_page_layout: tag_page
-tag_page_dir: tag
+  - name:           "About"
+    url:            "/about"
+  - name:           "Archive"
+    url:            "/archive"
+  - name:           "Tags"
+    url:            "/tags"
+  - name:           "Github"
+    url:            "https://github.com/FHEDUEmil"
+
+
+
+# Sass
 sass:
-  sass_dir: _sass
-  style: ":compressed"
+  sass_dir:         _sass
+  style:            :compressed
+
+# Scopes
 defaults:
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
 gems:
-- jekyll-seo-tag
-- jekyll-paginate
-exclude:
-- vendor
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+exclude:            [vendor]

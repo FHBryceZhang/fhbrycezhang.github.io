@@ -1,15 +1,9 @@
 ---
-title: A Full and Comprehensive Style Test
-date: 2016-08-15 00:00:00 -04:00
-categories:
-- assets
-- themes
-- kiko-plus
-tags:
-- test
-- style
 layout: post
-description: Test post for style
+title: "A Full and Comprehensive Style Test"
+description: "Test post for style"
+date: 2016-08-15
+tags: [test, style]
 comments: true
 share: true
 ---

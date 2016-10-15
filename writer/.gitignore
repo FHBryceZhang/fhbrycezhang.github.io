@@ -1,6 +1,0 @@
-# Node dependencies folder
-node_modules/
-userdata/
-built/
-npm-debug.log
-proxy.conf
