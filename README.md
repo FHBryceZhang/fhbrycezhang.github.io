@@ -1,3 +1,4 @@
 #GET TO CLASS
 
-My blog running on Jekyll Boostrap and the Kiko Plus theme.
+My blog running on Jekyll Bootstrap and the Kiko Plus theme.
+[gettoclass.cf](http://gettoclass.cf/)
