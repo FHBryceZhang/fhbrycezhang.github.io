@@ -1,5 +1,5 @@
 ---
-title: get to class
+title: Creative Mandarin
 timezone: America/New_York
 collections:
   posts:
@@ -19,12 +19,12 @@ defaults:
     type: posts
   values:
     layout: post
-name: Emil
+name: Creative Mandarin
 author:
-  name: Emil Sayahi
+  name: Bryce Zhang
   "//facebook": your-id
-  "//twitter": your-id
-  github: FHEDUEmil
+  twitter: zhangbryce
+  github: FHBryceZhang
   "//linkedin": your-id
   "//medium": your-id
   "//tumblr": your-id
@@ -33,7 +33,7 @@ google-analytics:
   id: UA-85744932-1
 disqus:
   id: gettoclass
-url: https://fheduemil.github.io/
+url: https://fhbrycezhang.github.io/
 baseurl: 
 permalink: "/:year-:month-:day/:title/"
 paginate: 5
