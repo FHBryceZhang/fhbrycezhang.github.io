@@ -1,5 +1,5 @@
 ---
-title: get to class
+title: Creative Chinese
 timezone: America/New_York
 collections:
   posts:
@@ -19,21 +19,21 @@ defaults:
     type: posts
   values:
     layout: post
-name: Emil
+name: Creative Chinese
 author:
-  name: Emil Sayahi
+  name: Bryce Zhang
   "//facebook": your-id
-  "//twitter": your-id
-  github: FHEDUEmil
+  twitter: zhangbryce
+  github: FHBryceZhang
   "//linkedin": your-id
   "//medium": your-id
   "//tumblr": your-id
-  email: emilsayahi@foresthills.edu
+  email: brycezhang@foresthills.edu
 google-analytics:
   id: UA-85744932-1
 disqus:
-  id: gettoclass
-url: https://fheduemil.github.io/
+  id: creativechinese
+url: https://fhbrycezhang.github.io/
 baseurl: 
 permalink: "/:year-:month-:day/:title/"
 paginate: 5
@@ -49,7 +49,7 @@ nav:
 - name: Tags
   url: "/tags"
 - name: Github
-  url: https://github.com/FHEDUEmil
+  url: https://github.com/FHBryceZhang
 sass:
   sass_dir: _sass
   style: compressed
