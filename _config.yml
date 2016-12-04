@@ -19,7 +19,7 @@ defaults:
     type: posts
   values:
     layout: post
-name: Creative Chinese
+name: Bryce
 author:
   name: Bryce Zhang
   "//facebook": your-id
