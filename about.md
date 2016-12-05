@@ -5,4 +5,4 @@ permalink: "/about/"
 ---
 
 
-[website source code](https://github.com/FHBryceZhang/fhebrycezhang.github.io)
+[website source code](https://github.com/FHBryceZhang/fhbrycezhang.github.io)
